@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <title>slick-slider</title>
+
+
+   
+</head>
+<body class="bg-color">
+    
+    <div class="container">
+            <div class="slick p-10 ">
+                 <div class="box">
+                    <img src="/im/images 2.jpg" alt="">
+                 </div>
+                 <div class="box">
+                    <img src="/im/images.jpg" alt="">
+                    
+                 </div>
+                 <div class="box">
+                    <img src="/im/images 3.jpg" alt="">
+                    
+                 </div>
+                 <div class="box">
+                    <img src="/im/images 4.jpg" alt="">
+                    
+                 </div> 
+                 <div class="box">
+                    <img src="/im/images 2.jpg" alt="">
+                    
+                 </div>
+                 <div class="box">
+                    <img src="/im/images.jpg" alt="">
+                    
+                 </div>
+                 <div class="box">
+                    <img src="/im/images.jpg" alt="">
+                    
+                 </div>
+                 <div class="box">
+                    <img src="/im/images 4.jpg" alt="">
+                    
+                 </div>           
+            </div>
+
+    </div>
+
+
+</body>
+       
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+       <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+       <script>
+                            
+            // $('.slick').slick({
+            // infinite: true,
+            // slidesToShow: 3,
+            // slidesToScroll: 3
+            // });
+				
+
+                $('.slick').slick({
+                    dots: false,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    responsive: [
+                        {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                        },
+                        {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                        },
+                        {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                        }
+                        // You can unslick at a given breakpoint now by adding:
+                        // settings: "unslick"
+                        // instead of a settings object
+                    ]
+                    });
+				
+
+       </script>
+</html>

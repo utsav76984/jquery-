@@ -1,0 +1,30 @@
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.box{
+
+    border: 1px solid black;
+    height: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 30px;
+    border-radius: 30px;
+}
+.p-10{
+
+    padding: 10px;
+}
+.bg-color{
+    background-color: rgb(79, 92, 92);
+}
+
+
+.slick-next {
+    right: 24px !important;
+}
+
+.slick-prev{
+    left:25px !important;
+    z-index: 10;
+}
